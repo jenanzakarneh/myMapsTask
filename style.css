@@ -1,0 +1,38 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+
+  #map {
+    display: flex;
+    margin-left: 300px;
+    justify-content: center;
+    height: 450px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #container{
+    border: 5px ;
+    justify-content: center;
+  }
+  .info{
+    width: 50%;
+    margin-top: 5px;
+    padding: 2px;
+    border:1px solid gainsboro;
+  }
+  input{
+    width: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  #flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+  }

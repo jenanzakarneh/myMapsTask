@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <input id="searchInput" class="controls" type="text" placeholder="Enter a location">
+
+    <div id="map"></div>
+    <div id="flex">
+      <div class="info" >Full Address: <span id="location"></span></div>
+    <div class="info" >Postal Code: <span id="postal_code"></span></div>
+    <div class="info" >Country: <span id="country"></span></div>
+    <div class="info" >Latitude:<span id="lat"></span></div>
+    <div class="info" >Longitude: <span id="lon"></span></div>
+    </div>
+    
+    </div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBCSlO6gunXcviPiGMQVE6gHqRYmPPrnP0&callback=initMap"
+      defer
+    ></script>
+
+  </body>
+ 
+</html>
